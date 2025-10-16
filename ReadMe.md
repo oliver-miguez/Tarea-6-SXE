@@ -125,3 +125,36 @@ Primero de todo deberemos completar la instalación de prestashop para poder uti
 Durante la pestaña de instalación llegaremos a este punto:
 
 ![Punto Importante](Imagenes/4.png)
+
+Este es uno de los puntos más importante 
+
+1º En el apartado de Dirección del servidor de la base de datos cogeremos 
+
+PMA_HOST=db
+
+PMA_PORT=3306
+
+Y colocaremos :
+
+        db:3306
+
+En el resto de apartados:
+
+Nombre de la base de datos
+
+Usuario de la base de datos
+
+Contraseña de la base de datos
+
+Añadimos también los datos del ***.env***
+            
+        DB_NAME=prestashop
+        DB_USER=admin
+        DB_PASSWORD=admin
+
+Si todo va bien le damos a continuar, al acabar la instalación, cerramos 
+volvemos a entrar en el localhost:8080 y ya tendremos nuestro prestashop
+
+Ahora por último si todo salió bien ponemos ahora en la URL:
+
+        localhost:8081
