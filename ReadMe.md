@@ -121,3 +121,7 @@ Accedemos a nuestro navegador y en el apartado de la URL escribimos lo siguiente
         localhost:8080 # Puerto de prestashop
 
 Primero de todo deberemos completar la instalación de prestashop para poder utilizar luego phpAdmin
+
+Durante la pestaña de instalación llegaremos a este punto:
+
+![Punto Importante](Imagenes/4.png)
