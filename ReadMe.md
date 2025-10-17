@@ -1,4 +1,6 @@
-# Tarea 6 SXE
+# Tarea 6 SXE 
+
+## **Oliver Miguez Alonso** 
 
 ## Pasos a seguir...
 
@@ -158,3 +160,18 @@ volvemos a entrar en el localhost:8080 y ya tendremos nuestro prestashop
 Ahora por último si todo salió bien ponemos ahora en la URL:
 
         localhost:8081
+
+Ahora dentro de la pantalla de phAdmin que nos aparace, añadimos el usuario y la contraseña, también 
+creados anteriormente: 
+
+        MYSQL_USER=admin
+        MYSQL_PASSWORD=admin
+
+Y todo ya estaría listo.
+
+### Tips y comandos utiles:
+
+*No usar la auto instalación de presatashop ( su enviroment )
+*Para finalizar el compose tirando los volumenes : Docker compose down - v
+*Para iniciar los volumenes: Docker compose up -d
+*En caso de que no funcione y aparentemente el código este bien, borrar todo
