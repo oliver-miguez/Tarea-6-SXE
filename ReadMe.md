@@ -172,6 +172,9 @@ Y todo ya estaría listo.
 ### Tips y comandos utiles:
 
 *No usar la auto instalación de presatashop ( su enviroment )
+
 *Para finalizar el compose tirando los volumenes : Docker compose down - v
+
 *Para iniciar los volumenes: Docker compose up -d
+
 *En caso de que no funcione y aparentemente el código este bien, borrar todo
